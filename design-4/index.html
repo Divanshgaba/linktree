@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>demo-4</title>
+    <style>
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+@background: hsla(242, 58%, 73%, 1);
+
+@gradient: linear-gradient(
+    45deg,
+    hsla(242, 58%, 73%, 1) 0%,
+    hsla(157, 72%, 82%, 1) 100%
+  )
+  fixed;
+
+@color: #fff;
+
+@font-family: "Poppins", Sans-Serif;
+
+* {
+  padding: 0;
+
+  margin: 0;
+
+  color: @color;
+
+  font-family: @font-family;
+}
+
+body {
+  background: @background @gradient;
+}
+
+.root {
+  height: 100vh;
+
+  width: 100vw;
+
+  text-align: center;
+}
+
+.avatar-container {
+  margin-top: 60px;
+}
+
+.avatar {
+  border-radius: 50%;
+
+  border: 2px solid #fff;
+}
+
+.user {
+  text-align: center;
+
+  width: 100vw;
+
+  margin-top: 1em;
+}
+
+.user-name,
+.description {
+  text-align: center;
+
+  display: block;
+
+  margin-top: 2px;
+}
+
+.social-url {
+  text-align: center;
+
+  font-size: 18px;
+
+  margin: 20px;
+
+  border: 1px solid #fff;
+
+  border-radius: 30px;
+
+  padding: 15px;
+
+  font-weight: 600;
+}
+
+.link {
+  text-decoration: none;
+}
+
+@media (min-width: 600px) {
+  .social-url {
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+}
+
+
+    </style>
+</head>
+<body>
+    
+    <div class="root">
+
+        <div class="avatar-container">
+      
+          <img src="https://shorturl.at/klvzR" alt="avatar#user" width="150" height="150" class="avatar" />
+      
+        </div>
+      
+        <div class="user">
+      
+          <h2 class="user-name">@Arkaneel</h2>
+      
+          <p class="description">夢は現実よりも優れている</p>
+      
+        </div>
+      
+        <div class="social-url">
+      
+          <a class="link" href="#">Twitter</a>
+      
+        </div>
+      
+        <div class="social-url">
+      
+          <a class="link" href="#">Instagram</a>
+      
+        </div>
+      
+        <div class="social-url">
+      
+          <a class="link" href="#">Github</a>
+      
+        </div>
+      
+        <div class="social-url">
+      
+          <a href="#" class="link">Youtube</a>
+      
+        </div>
+      
+        <div class="social-url">
+      
+          <a class="link" href="#">Facebook</a>
+      
+        </div>
+      
+        <br />
+      
+        <p>Designed By Arkaneel Roy</p>
+      
+        <br />
+      
+      </div>
+
+</body>
+</html>
