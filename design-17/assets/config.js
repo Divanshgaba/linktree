@@ -5,22 +5,23 @@ let config = {
   "links": [
     {
       "Title": "Website",
-      "URL": "http://www.harindu.dev",
+      "URL": "https://lactus.online",
       "icon_classes": "fas fa-link",
     },
     {
       "Title": "Github",
-      "URL": "https://github.com/harindulk",
+      "URL": "https://github.com/",
       "icon_classes": "fab fa-github",
     },
+    // https://play.google.com/store/apps/dev?id=6729187126243636577
     {
       "Title": "Play Store",
-      "URL": "https://play.google.com/store/apps/dev?id=6729187126243636577",
+      "URL": "https://productlinkss.wordpress.com",
       "icon_classes": "fab fa-google-play"
     },
     {
       "Title": "PC Games",
-      "URL": "https://harindulk.itch.io/",
+      "URL": "###",
       "icon_classes": "fab fa-itch-io"
     },
     {
@@ -30,17 +31,17 @@ let config = {
     },
     {
       "Title": "Twitter",
-      "URL": "https://twitter.com/Harindu_Fonseka",
+      "URL": "https://twitter.com/",
       "icon_classes": "fab fa-twitter"
     },
     {
       "Title": "LinkedIn",
-      "URL": "https://www.linkedin.com/in/harindulk/",
+      "URL": "https://www.linkedin.com/in/",
       "icon_classes": "fab fa-linkedin"
     },
     {
       "Title": "Youtube",
-      "URL": "https://www.youtube.com/channel/UCRyQGxzCgFb5wmsp1XAlWpQ",
+      "URL": "https://www.youtube.com/",
       "icon_classes": "fab fa-youtube"
     },
   ]
